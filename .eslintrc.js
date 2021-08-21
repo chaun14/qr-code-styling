@@ -13,4 +13,10 @@ module.exports = {
   parserOptions: {
     sourceType: "module"
   }
+  'prettier/prettier': [
+    'error',
+    {
+      'endOfLine': 'auto',
+    }
+]
 };
